@@ -1,15 +1,17 @@
 import Link from 'next/link';
 import React from 'react';
 
+
 const Header = () => {
+ 
   const items = (
     <>
       <li>
         {' '}
-        <Link href="items">Items</Link>
+        <Link href="/items">Items</Link>
       </li>
       <li>
-        <Link href="add-item">Add-Item</Link>
+        <Link href="/add-item">Add-Item</Link>
       </li>
     </>
   );
@@ -45,12 +47,12 @@ const Header = () => {
           <a className="btn btn-ghost text-xl">ProductFlow</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {items}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{items}</ul>
         </div>
         <div className="navbar-end">
-          <Link href='/login' className="btn">Login</Link>
+          <Link href="/login" className='btn   btn-info text-white' >
+             Login
+          </Link>
         </div>
       </div>
     </div>
