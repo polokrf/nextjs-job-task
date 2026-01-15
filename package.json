@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "daisyui": "^5.5.14",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"

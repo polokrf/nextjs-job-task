@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Smart Laptop Pro",
+    "description": "Smart Laptop Pro is a high-performance laptop designed for professionals and power users. It offers fast processing speed, smooth multitasking, long battery life, and a sleek modern design, making it suitable for office work, remote jobs, and creative tasks.",
+    "image":"https://i.ibb.co.com/jZLmr3F5/laptop-wooden-table-1.jpg",
+    "rating": 4.7,
+    "price": 1200
+  },
+  {
+    "title": "Wireless Headphones",
+    "description": "These wireless noise-cancelling headphones provide immersive sound quality with deep bass and clear audio. They are comfortable for long usage and ideal for travel, work, online meetings, and entertainment.",
+    "image": "https://i.ibb.co.com/1tV9vGpk/headset-aa-white-surface.jpg",
+    "rating": 4.5,
+    "price": 180
+  },
+  {
+    "title": "Smartphone X",
+    "description": "Smartphone X is a next-generation smartphone built for speed and performance. It features a powerful processor, advanced camera system, smooth display, and reliable battery life for everyday and professional use.",
+    "image": "https://i.ibb.co.com/CstqGWrK/pixel-smartphone-with-pumpkins-fall-setting.jpg",
+    "rating": 4.6,
+    "price": 950
+  },
+  {
+    "title": "Gaming Mouse",
+    "description": "This gaming mouse is designed for precision and control. It includes adjustable DPI settings, ergonomic grip, and responsive buttons that enhance performance during competitive gaming sessions.",
+    "image": "https://i.ibb.co.com/hx1jyyQy/purple-computer-mouse.jpg",
+    "rating": 4.4,
+    "price": 60
+  },
+  {
+    "title": "Mechanical Keyboard",
+    "description": "The mechanical keyboard delivers a premium typing experience with tactile feedback and durable keys. It is ideal for developers, gamers, and writers who need speed, accuracy, and comfort.",
+    "image": "https://i.ibb.co.com/np5k5jR/flat-lay-keyboard-with-coffee-clippers.jpg",
+    "rating": 4.8,
+    "price": 150
+  },
+  {
+    "title": "Smart Watch",
+    "description": "This smartwatch helps users monitor health and fitness activities while staying connected. It supports heart rate tracking, sleep monitoring, step counting, and smart notifications for daily life.",
+    "image": "https://i.ibb.co.com/C5LGSv00/smartwatch-screen-digital-device.jpg",
+    "rating": 4.3,
+    "price": 220
+  },
+  {
+    "title": "Bluetooth Speaker",
+    "description": "The Bluetooth speaker offers powerful sound in a compact and portable design. It is perfect for outdoor activities, travel, and small gatherings, delivering clear audio and strong bass wirelessly.",
+    "image": "https://i.ibb.co.com/mr8cyZb5/still-life-tech-device.jpg",
+    "rating": 4.4,
+    "price": 90
+  },
+  {
+    "title": "4K Monitor",
+    "description": "This 4K monitor provides ultra-high-definition visuals with sharp details and accurate color reproduction. It is ideal for designers, developers, and content creators who need professional-grade displays.",
+    "image": "https://i.ibb.co.com/tTDcCR9R/display-various-wireless-devices-table.jpg",
+    "rating": 4.7,
+    "price": 400
+  },
+  {
+    "title": "External SSD",
+    "description": "The external SSD delivers fast data transfer speeds and secure storage in a compact form. It is suitable for backups, large file transfers, and portable storage for professionals and students.",
+    "image": "https://i.ibb.co.com/dJbc4YL7/aerial-view-memory-card.jpg",
+    "rating": 4.6,
+    "price": 160
+  },
+  {
+    "title": "Webcam HD",
+    "description": "This HD webcam is designed for video conferencing, online classes, and live streaming. It provides clear video quality, auto-focus support, and noise reduction for professional communication.",
+    "image": "https://i.ibb.co.com/Zp3rxQ08/wireless-home-security-surveillance-camera.jpg",
+    "rating": 4.2,
+    "price": 85
+  },
+  {
+    "title": "Office Chair",
+    "description": "The ergonomic office chair is designed to support proper posture during long working hours. It features adjustable height, lumbar support, and breathable materials to ensure comfort and productivity.",
+    "image": "https://i.ibb.co.com/hxMhqqH6/pexels-skylar-kang-6044928.jpg",
+    "rating": 4.5,
+    "price": 300
+  },
+  {
+    "title": "Tablet Plus",
+    "description": "Tablet Plus is a lightweight and portable tablet suitable for reading, browsing, and entertainment. It offers a smooth display, long battery life, and easy portability for everyday use.",
+    "image": "https://i.ibb.co.com/Psfdn0cz/vecteezy-tablet-displaying-a-nature-inspired-screen-lies-on-a-neutral-71198643.jpg",
+    "rating": 4.4,
+    "price": 520
+  }
+]
