@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 
 
 const AddItemForm = () => {
-  const rating = (Math.random() * 5 + 1).toFixed(1);
+  const rating = (Math.random() * 5 ).toFixed(1);
  const router =useRouter()
   
   const handleSubmit =  (e) => {

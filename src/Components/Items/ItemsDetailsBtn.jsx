@@ -8,7 +8,7 @@ const ItemsDetailsBtn = ({ title }) => {
    toast.info(`you buy ${title}`);
     setBuy(true)
   };
-  console.log(title)
+  
   return (
     <button
       disabled={buy}
