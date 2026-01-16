@@ -8,7 +8,7 @@ const NavLink = ({ href, children }) => {
   const pathName = usePathname()
   const isActive = href ==='/'?pathName==='/':pathName?.startsWith(href)
   return (
-    <div>
+   
       <Link
         className={`${
           isActive
@@ -19,7 +19,7 @@ const NavLink = ({ href, children }) => {
       >
         {children}
       </Link>
-    </div>
+    
   );
 };
 

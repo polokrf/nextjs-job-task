@@ -5,15 +5,15 @@ import Image from 'next/image';
 import React from 'react';
 
 const findITems = async (id) => {
-  
+   if (!ObjectId.isValid(id)) {
+     return null
+   }
   const result = await productItems('productsItems').findOne({ _id: new ObjectId(id) })
-  if (!ObjectId.isValid) {
-    return {}
-  }
+ 
   return result 
 }
 const ItemsDetails = async({params}) => {
-  const { id } = await params;
+  const { id } =  params;
   const product= await findITems(id);
   
 
