@@ -4,11 +4,12 @@ import axios from 'axios';
 import React from 'react';
 import { AddItemPost } from './AddItemPost';
 import { toast } from 'react-toastify';
+import { useRouter } from 'next/navigation';
 
 
 const AddItemForm = () => {
   const rating = (Math.random() * 5 + 1).toFixed(1);
- 
+ const router =useRouter()
   
   const handleSubmit =  (e) => {
     e.preventDefault();
@@ -32,7 +33,7 @@ const AddItemForm = () => {
       const productPostdb= await AddItemPost(items)
       toast.info('Successful');
       e.target.reset()
-
+      router.refresh();
 
     }).catch(err => {
       console.log(err)
