@@ -6,7 +6,7 @@ import React from 'react';
 const NavLink = ({ href, children }) => {
 
   const pathName = usePathname()
-  const isActive = href ==='/'?pathName==='/':pathName.startsWith(href)
+  const isActive = href ==='/'?pathName==='/':pathName?.startsWith(href)
   return (
     <div>
       <Link
