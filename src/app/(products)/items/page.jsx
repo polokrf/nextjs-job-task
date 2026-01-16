@@ -1,6 +1,7 @@
 import ItemsCard from '@/Components/Items/ItemsCard';
 import { productItems } from '@/lib/dbCollection';
 import React from 'react';
+export const revalidate = 10;
 
 const Items = async () => {
   const result = await productItems('productsItems').find().toArray()
