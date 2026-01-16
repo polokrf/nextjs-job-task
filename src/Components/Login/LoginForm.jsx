@@ -1,6 +1,6 @@
 'use client'
 import { useRouter } from 'next/navigation';
-import React, { useState } from 'react';
+
 import { toast } from 'react-toastify';
 
 const LoginForm = () => {
@@ -14,6 +14,7 @@ const LoginForm = () => {
       document.cookie = "auth=true; path=/";
       router.push('/add-item');
       toast.info('successful')
+      router.refresh();
     } else if (email !== 'demo@gmail.com') {
       toast.error('do not match email')
     } else if (password !== '123456') {
