@@ -1,23 +1,28 @@
 import Link from 'next/link';
-import React from 'react';
-
+import NavLink from '../NavLink/NavLink';
+import HeaderBtn from './HeaderBtn';
 
 const Header = () => {
  
+  
   const items = (
     <>
       <li>
         {' '}
-        <Link href="/items">Items</Link>
+        <NavLink href="/">Home</NavLink>
       </li>
       <li>
-        <Link href="/add-item">Add-Item</Link>
+        {' '}
+        <NavLink href="/items">Items</NavLink>
+      </li>
+      <li>
+        <NavLink href="/add-item">Add-Item</NavLink>
       </li>
     </>
   );
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className=" bg-base-100 shadow-sm">
+      <div className="navbar  md:max-w-[1300px] mx-auto w-full">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,15 +49,15 @@ const Header = () => {
               {items}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">ProductFlow</a>
+          <h1 className="bg-linear-to-l to-green-300 from-green-400 bg-clip-text text-transparent text-xl">
+            ProductFlow
+          </h1>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{items}</ul>
         </div>
         <div className="navbar-end">
-          <Link href="/login" className='btn   btn-info text-white' >
-             Login
-          </Link>
+         <HeaderBtn></HeaderBtn>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const ItemsDetails = async({params}) => {
   
 
   return (
-    <div className=" my-15 p-2">
+    <div className=" my-15 p-2 md:max-w-[1300px] mx-auto w-full">
       <div className=" mb-4 text-center">
         <h1 className=" text-2xl font-bold capitalize mb-2">Product Details</h1>
         <p>Explore features, pricing, and performance at a glance</p>
@@ -52,9 +52,7 @@ const ItemsDetails = async({params}) => {
               </div>
             </div>
 
-           
-              <ItemsDetailsBtn title={product.title}></ItemsDetailsBtn>
-            
+            <ItemsDetailsBtn title={product.title}></ItemsDetailsBtn>
           </div>
         </div>
       </div>

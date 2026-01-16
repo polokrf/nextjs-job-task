@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/Components/Layout/Header";
 import Footer from "@/Components/Layout/Footer";
 import { ToastContainer } from "react-toastify";
+import AuthProvider from "@/Components/AuthProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,11 +28,14 @@ export default async function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className=" flex flex-col min-h-screen">
-          <Header ></Header>
+          <AuthProvider>
+            {' '}
+            <Header></Header>
+          </AuthProvider>
 
-          <div className=" flex-1 md:max-w-[1300px] mx-auto w-full">
+          <div className=" flex-1 ">
             {children}
-            <ToastContainer/>
+            <ToastContainer />
           </div>
 
           <Footer></Footer>

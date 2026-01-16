@@ -2,7 +2,7 @@ import React from 'react';
 
 const loading = () => {
   return (
-    <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden animate-pulse my-15 p-2">
+    <div className="max-w-4xl  bg-white rounded-2xl shadow-lg overflow-hidden animate-pulse my-15 p-2 md:max-w-[1300px] mx-auto w-full">
       <div className="grid md:grid-cols-2 gap-6">
         {/* Image Skeleton */}
         <div className="w-full h-72 bg-gray-300"></div>

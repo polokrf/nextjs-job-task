@@ -5,7 +5,7 @@ const AddItems = () => {
 
   return (
     <div>
-      <div className=" flex flex-col justify-center items-center min-h-screen">
+      <div className=" flex flex-col justify-center items-center min-h-screen ">
         <div className=' mb-4 text-center'>
           <h1 className=' text-2xl font-bold mb-2'>Add New Item</h1>
           <p>Fill in the details to create a new product</p>
