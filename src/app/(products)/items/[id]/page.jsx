@@ -13,7 +13,7 @@ const findITems = async (id) => {
   return result 
 }
 const ItemsDetails = async({params}) => {
-  const { id } =  params;
+  const { id } =await  params;
   const product= await findITems(id);
   
 
