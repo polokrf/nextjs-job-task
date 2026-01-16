@@ -33,6 +33,7 @@ const AddItemForm = () => {
       const productPostdb= await AddItemPost(items)
       toast.info('Successful');
       e.target.reset()
+      
       router.refresh();
 
     }).catch(err => {
