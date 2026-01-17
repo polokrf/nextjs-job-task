@@ -43,7 +43,7 @@ http://localhost:3000
 | `/login`      | Public    | Mock authentication page            |
 | `/items`      | Public    | List of items fetched from API      |
 | `/items/[id]` | Public    | Item details page                   |
-| `/add-item`   | Protected | Add new item (login required)       |
+
 
 ---
 
