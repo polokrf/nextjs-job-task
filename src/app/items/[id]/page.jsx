@@ -2,11 +2,12 @@ import ItemsDetailsBtn from '@/Components/Items/ItemsDetailsBtn';
 import { productItems } from '@/lib/dbCollection';
 import { ObjectId } from 'mongodb';
 import Image from 'next/image';
+import { notFound } from 'next/navigation';
 import React from 'react';
 
 const findITems = async (id) => {
    if (!ObjectId.isValid(id)) {
-     return null
+     notFound()
    }
   const result = await productItems('productsItems').findOne({ _id: new ObjectId(id) })
  
@@ -28,8 +29,8 @@ const ItemsDetails = async({params}) => {
           {/* Image */}
           <div className="relative w-full h-72 md:h-full">
             <Image
-              src={product.image}
-              alt={product.title}
+              src={product?.image}
+              alt={product?.title}
               fill
               className="object-cover cursor-pointer hover:translate-1 duration-300"
             />
@@ -38,21 +39,21 @@ const ItemsDetails = async({params}) => {
           {/* Content */}
           <div className="p-6 flex flex-col justify-between">
             <div>
-              <h1 className="text-2xl font-semibold mb-2">{product.title}</h1>
+              <h1 className="text-2xl font-semibold mb-2">{product?.title}</h1>
 
-              <p className="text-gray-600 mb-4">{product.description}</p>
+              <p className="text-gray-600 mb-4">{product?.description}</p>
 
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-yellow-500 font-medium">
-                  ⭐ {product.rating}
+                  ⭐ {product?.rating}
                 </span>
                 <span className="text-xl font-bold text-blue-600">
-                  ${product.price}
+                  ${product?.price}
                 </span>
               </div>
             </div>
 
-            <ItemsDetailsBtn title={product.title}></ItemsDetailsBtn>
+            <ItemsDetailsBtn title={product?.title}></ItemsDetailsBtn>
           </div>
         </div>
       </div>

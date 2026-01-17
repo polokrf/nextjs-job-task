@@ -15,9 +15,7 @@ const Header = () => {
         {' '}
         <NavLink href="/items">Items</NavLink>
       </li>
-      <li>
-        <NavLink href="/add-item">Add-Item</NavLink>
-      </li>
+      
     </>
   );
   return (

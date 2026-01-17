@@ -10,7 +10,7 @@ const LoginForm = () => {
     const password = e.target.password.value;
     if (email === 'demo@gmail.com' && password === '123456') {
       document.cookie = "auth=true; path=/";
-     window.location.href = '/add-item';
+     window.location.href = '/items';
       toast.info('successful')
       
     } else if (email !== 'demo@gmail.com') {

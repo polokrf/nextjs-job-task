@@ -27,15 +27,10 @@ const CollAndAction = () => {
               href="/items"
               className="px-8 py-3 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition"
             >
-              Browse Products
+             View Items
             </Link>
 
-            <Link
-              href="/login"
-              className="px-8 py-3 rounded-lg border border-gray-300 text-gray-700 font-semibold hover:bg-gray-100 transition"
-            >
-              Sign In to Manage
-            </Link>
+          
           </div>
         </div>
       </div>
